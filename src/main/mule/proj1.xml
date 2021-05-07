@@ -9,5 +9,6 @@
 		<set-payload value='#["52"]' doc:name="Set Payload" doc:id="730bef98-4b4d-472f-8083-3c99b7054108" />
 		<logger level="INFO" doc:name="Logger" doc:id="df11d115-deb7-4098-9940-2cb52b160300" />
 		<logger level="INFO" doc:name="Logger" doc:id="4dcf8435-eb37-4224-951c-1e039af9aad4" />
+		<logger level="INFO" doc:name="Logger" doc:id="a6dab194-3deb-4d82-aee3-0bb7ce3d9232" />
 	</flow>
 </mule>
