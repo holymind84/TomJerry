@@ -6,5 +6,6 @@
 	<flow name="proj1Flow" doc:id="3ce4d827-3efa-4d18-89e3-8714ea121ee2" >
 		<logger level="INFO" doc:name="Logger" doc:id="98431cd8-125d-4615-b564-e9eb7befbc74" />
 		<logger level="INFO" doc:name="Logger" doc:id="c8a68fc8-12a3-4206-b974-7eaefce30306" />
+		<set-payload value='#["52"]' doc:name="Set Payload" doc:id="730bef98-4b4d-472f-8083-3c99b7054108" />
 	</flow>
 </mule>
