@@ -15,4 +15,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="proj1Flow1" doc:id="e8888f51-57da-411e-9648-15af2197983a" >
 		<http:listener doc:name="Listener" doc:id="da1795ac-5f71-48f7-bac8-f83a8274c3f0" config-ref="HTTP_Listener_config" path="/a"/>
 	</flow>
+	<flow name="proj1Flow2" doc:id="c4c4f39a-dfa0-4d88-9763-058547bc195f" >
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="a67db96e-d2b2-4712-a05b-3e678e2295e8" />
+	</flow>
 </mule>
